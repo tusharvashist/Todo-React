@@ -23,6 +23,7 @@ export class AddTodo extends Component {
             placeholder="Add Todo..." 
             style={{flex:'10', padding: '5px'}}
             onChange={this.onChange}
+            required
         />
         <input 
             type="submit" 
